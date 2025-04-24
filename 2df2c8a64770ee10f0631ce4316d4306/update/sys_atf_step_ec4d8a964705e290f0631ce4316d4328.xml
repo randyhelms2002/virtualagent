@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Start topic</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Start topic">06ebf46229220110fa9b4ca2fb4c9dc1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:56:17</sys_created_on>
+        <sys_id>ec4d8a964705e290f0631ce4316d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Start topic</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Converstions" source="x_1596633_needit_v">2df2c8a64770ee10f0631ce4316d4306</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Converstions">2df2c8a64770ee10f0631ce4316d4306</sys_scope>
+        <sys_update_name>sys_atf_step_ec4d8a964705e290f0631ce4316d4328</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:56:17</sys_updated_on>
+        <table/>
+        <test display_value="Update NeedIt Records 4/23/2025, 4:56:15 PM">6c4d8a964705e290f0631ce4316d4322</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ec4d8a964705e290f0631ce4316d4328"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ec4d8a964705e290f0631ce4316d4328</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:56:17</sys_created_on>
+        <sys_id>2c4d8a964705e290f0631ce4316d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:56:17</sys_updated_on>
+        <value>7f65c4aa4770ee10f0631ce4316d430d</value>
+        <variable display_value="Topic ID">db7cbc6229220110fa9b4ca2fb4c9db9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ec4d8a964705e290f0631ce4316d4328"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>topic_id</field>
+        <id>ec4d8a964705e290f0631ce4316d4328</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:56:17</sys_created_on>
+        <sys_id>204d8a964705e290f0631ce4316d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:56:17</sys_updated_on>
+        <table>var__m_atf_input_variable_06ebf46229220110fa9b4ca2fb4c9dc1</table>
+        <value>7f65c4aa4770ee10f0631ce4316d430d</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Expected Message: 1745191020000</description>
+        <display_name>Send Message</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>10</order>
+        <step_config display_value="Send Message">c8ef3da265220110fa9b9beedac637c5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>30a442da47c1e290f0631ce4316d4379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send Message</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Converstions" source="x_1596633_needit_v">2df2c8a64770ee10f0631ce4316d4306</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Converstions">2df2c8a64770ee10f0631ce4316d4306</sys_scope>
+        <sys_update_name>sys_atf_step_30a442da47c1e290f0631ce4316d4379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <table/>
+        <test display_value="Update NeedIt Records 4/23/2025, 4:18:32 PM">90a4469a47c1e290f0631ce4316d43c4</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=30a442da47c1e290f0631ce4316d4379"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>30a442da47c1e290f0631ce4316d4379</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>30a442da47c1e290f0631ce4316d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <value/>
+        <variable display_value="Search text">abd3a5f424320110fa9b6b940069a38f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>30a442da47c1e290f0631ce4316d4379</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>34a442da47c1e290f0631ce4316d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <value>{{step['e8a4469a47c1e290f0631ce4316d43cc'].session_id}}</value>
+        <variable display_value="Session ID">f035ce6221220110fa9b5c38c5d2fefd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>30a442da47c1e290f0631ce4316d4379</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>70a442da47c1e290f0631ce4316d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <value>{{step['70a442da47c1e290f0631ce4316d4374'].rich_control}}</value>
+        <variable display_value="Rich Control">6bd7026621220110fa9b5c38c5d2fe71</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>30a442da47c1e290f0631ce4316d4379</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>7ca442da47c1e290f0631ce4316d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <value>1745191020000</value>
+        <variable display_value="Message">16e44a6221220110fa9b5c38c5d2fe4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>30a442da47c1e290f0631ce4316d4379</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>b8a442da47c1e290f0631ce4316d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <value>{{step['70a442da47c1e290f0631ce4316d4374'].task_id}}</value>
+        <variable display_value="Task ID">d88586a221220110fa9b5c38c5d2feab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>30a442da47c1e290f0631ce4316d4379</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>bca442da47c1e290f0631ce4316d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <value>{{step['e8a4469a47c1e290f0631ce4316d43cc'].conversation_id}}</value>
+        <variable display_value="Conversation ID">a555c2a221220110fa9b5c38c5d2fe84</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>30a442da47c1e290f0631ce4316d4379</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>f4a442da47c1e290f0631ce4316d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Serial Number">2217a93b77831110c8616cf78c5a9932</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=30a442da47c1e290f0631ce4316d4379"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conversation_id</field>
+        <id>30a442da47c1e290f0631ce4316d4379</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>34a442da47c1e290f0631ce4316d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <table>var__m_atf_input_variable_c8ef3da265220110fa9b9beedac637c5</table>
+        <value>{{step['e8a4469a47c1e290f0631ce4316d43cc'].conversation_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>30a442da47c1e290f0631ce4316d4379</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>f0a442da47c1e290f0631ce4316d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <table>var__m_atf_input_variable_c8ef3da265220110fa9b9beedac637c5</table>
+        <value>1745191020000</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rich_control</field>
+        <id>30a442da47c1e290f0631ce4316d4379</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>f4a442da47c1e290f0631ce4316d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <table>var__m_atf_input_variable_c8ef3da265220110fa9b9beedac637c5</table>
+        <value>{{step['70a442da47c1e290f0631ce4316d4374'].rich_control}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>serial_number</field>
+        <id>30a442da47c1e290f0631ce4316d4379</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>7ca442da47c1e290f0631ce4316d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <table>var__m_atf_input_variable_c8ef3da265220110fa9b9beedac637c5</table>
+        <value>0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>session_id</field>
+        <id>30a442da47c1e290f0631ce4316d4379</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>b8a442da47c1e290f0631ce4316d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <table>var__m_atf_input_variable_c8ef3da265220110fa9b9beedac637c5</table>
+        <value>{{step['e8a4469a47c1e290f0631ce4316d43cc'].session_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_id</field>
+        <id>30a442da47c1e290f0631ce4316d4379</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>30a442da47c1e290f0631ce4316d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <table>var__m_atf_input_variable_c8ef3da265220110fa9b9beedac637c5</table>
+        <value>{{step['70a442da47c1e290f0631ce4316d4374'].task_id}}</value>
+    </sys_element_mapping>
+</record_update>

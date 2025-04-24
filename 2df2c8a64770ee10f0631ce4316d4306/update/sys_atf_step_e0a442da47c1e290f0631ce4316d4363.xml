@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Expected Message: We have NI002037: This text set by the Debugging Business Rules business ru... 
+ Open record to view complete message</description>
+        <display_name>Receive  Message</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <step_config display_value="Receive  Message">b55a25624d220110fa9b4c739da9ee81</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>e0a442da47c1e290f0631ce4316d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Receive  Message</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Converstions" source="x_1596633_needit_v">2df2c8a64770ee10f0631ce4316d4306</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Converstions">2df2c8a64770ee10f0631ce4316d4306</sys_scope>
+        <sys_update_name>sys_atf_step_e0a442da47c1e290f0631ce4316d4363</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <table/>
+        <test display_value="Update NeedIt Records 4/23/2025, 4:18:32 PM">90a4469a47c1e290f0631ce4316d43c4</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=e0a442da47c1e290f0631ce4316d4363"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e0a442da47c1e290f0631ce4316d4363</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>28a442da47c1e290f0631ce4316d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <value>4</value>
+        <variable display_value="Serial Number">1bc6e13b77831110c8616cf78c5a99d8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e0a442da47c1e290f0631ce4316d4363</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>64a442da47c1e290f0631ce4316d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <value>{{step['e8a4469a47c1e290f0631ce4316d43cc'].conversation_id}}</value>
+        <variable display_value="Conversation ID">a93c29e24d220110fa9b4c739da9eeab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e0a442da47c1e290f0631ce4316d4363</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>e8a442da47c1e290f0631ce4316d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <value>We have NI002037: This text set by the Debugging Business Rules business rule. as Needit List, is this correct?</value>
+        <variable display_value="message">63dbe1e24d220110fa9b4c739da9ee36</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e0a442da47c1e290f0631ce4316d4363"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conversation_id</field>
+        <id>e0a442da47c1e290f0631ce4316d4363</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>64a442da47c1e290f0631ce4316d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <table>var__m_atf_input_variable_b55a25624d220110fa9b4c739da9ee81</table>
+        <value>{{step['e8a4469a47c1e290f0631ce4316d43cc'].conversation_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>e0a442da47c1e290f0631ce4316d4363</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>a0a442da47c1e290f0631ce4316d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <table>var__m_atf_input_variable_b55a25624d220110fa9b4c739da9ee81</table>
+        <value>We have NI002037: This text set by the Debugging Business Rules business rule. as Needit List, is this correct?</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>serial_number</field>
+        <id>e0a442da47c1e290f0631ce4316d4363</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-23 23:18:36</sys_created_on>
+        <sys_id>eca442da47c1e290f0631ce4316d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 23:18:36</sys_updated_on>
+        <table>var__m_atf_input_variable_b55a25624d220110fa9b4c739da9ee81</table>
+        <value>4</value>
+    </sys_element_mapping>
+</record_update>
