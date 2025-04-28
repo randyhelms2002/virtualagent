@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Expected Message: I can help you find and update NeedIt records for a type of request.</description>
+        <display_name>Receive  Message</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Receive  Message">b55a25624d220110fa9b4c739da9ee81</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 18:09:37</sys_created_on>
+        <sys_id>90874ee247092690f0631ce4316d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Receive  Message</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Converstions" source="x_1596633_needit_v">2df2c8a64770ee10f0631ce4316d4306</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Converstions">2df2c8a64770ee10f0631ce4316d4306</sys_scope>
+        <sys_update_name>sys_atf_step_90874ee247092690f0631ce4316d4322</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 18:09:37</sys_updated_on>
+        <table/>
+        <test display_value="Update NeedIt Records 4/24/2025, 11:09:06 AM">9967c2e247092690f0631ce4316d43dc</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=90874ee247092690f0631ce4316d4322"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>90874ee247092690f0631ce4316d4322</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 18:09:37</sys_created_on>
+        <sys_id>18874ee247092690f0631ce4316d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 18:09:37</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Serial Number">1bc6e13b77831110c8616cf78c5a99d8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>90874ee247092690f0631ce4316d4322</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 18:09:37</sys_created_on>
+        <sys_id>54874ee247092690f0631ce4316d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 18:09:37</sys_updated_on>
+        <value>{{step['8c874ee247092690f0631ce4316d431d'].conversation_id}}</value>
+        <variable display_value="Conversation ID">a93c29e24d220110fa9b4c739da9eeab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>90874ee247092690f0631ce4316d4322</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 18:09:37</sys_created_on>
+        <sys_id>d8874ee247092690f0631ce4316d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 18:09:37</sys_updated_on>
+        <value>I can help you find and update NeedIt records for a type of request.</value>
+        <variable display_value="message">63dbe1e24d220110fa9b4c739da9ee36</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=90874ee247092690f0631ce4316d4322"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conversation_id</field>
+        <id>90874ee247092690f0631ce4316d4322</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 18:09:37</sys_created_on>
+        <sys_id>54874ee247092690f0631ce4316d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 18:09:37</sys_updated_on>
+        <table>var__m_atf_input_variable_b55a25624d220110fa9b4c739da9ee81</table>
+        <value>{{step['8c874ee247092690f0631ce4316d431d'].conversation_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>90874ee247092690f0631ce4316d4322</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 18:09:37</sys_created_on>
+        <sys_id>90874ee247092690f0631ce4316d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 18:09:37</sys_updated_on>
+        <table>var__m_atf_input_variable_b55a25624d220110fa9b4c739da9ee81</table>
+        <value>I can help you find and update NeedIt records for a type of request.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>serial_number</field>
+        <id>90874ee247092690f0631ce4316d4322</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-24 18:09:37</sys_created_on>
+        <sys_id>dc874ee247092690f0631ce4316d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-24 18:09:37</sys_updated_on>
+        <table>var__m_atf_input_variable_b55a25624d220110fa9b4c739da9ee81</table>
+        <value>1</value>
+    </sys_element_mapping>
+</record_update>
